@@ -15,6 +15,7 @@ library(tidyverse)
  
 ```{r}
 litters_df = read_csv("./data/FAS_litters.csv")
+litters_df
 ```
  
  
