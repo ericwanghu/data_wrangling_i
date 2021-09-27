@@ -64,6 +64,8 @@ pulse_df
 
 ```
 
+## Comparison with Base R
+
 always use read_csv not read.csv
 
 ```{r}
@@ -73,6 +75,16 @@ litters_readr = read+csv("data/FAS_litters.csv")
 
 litters_base
 litters_readr
+
+```
+
+## Exporting data
+
+Export the mlb sub-table
+
+```{r}
+
+write_csv(mlb_df, "./data/mlb_subtable.csv")
 
 ```
 
