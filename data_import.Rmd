@@ -64,3 +64,15 @@ pulse_df
 
 ```
 
+always use read_csv not read.csv
+
+```{r}
+
+litters_base = read.csv("data/FAS_litters.csv")
+litters_readr = read+csv("data/FAS_litters.csv")
+
+litters_base
+litters_readr
+
+```
+
