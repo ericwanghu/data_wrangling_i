@@ -6,6 +6,8 @@ output: github_document
 ```{r setup}
 
 library(tidyverse)
+library(readxl)
+library(haven)
 
 ```
 
@@ -44,4 +46,21 @@ skimr::skim(litters_df)
  
 check out `?read_csv()` for more information.
 
- 
+Read in an excel file.
+
+```{r}
+
+mlb_df = read_excel("./data/mlb11.xlsx")
+pulse_df
+
+```
+
+Read in a SAS file
+
+```{r}
+
+pulse_df = read_sas("./data/public_pulse_data.sas7bdat")
+pulse_df
+
+```
+
