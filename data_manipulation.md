@@ -505,7 +505,7 @@ litters_df =
     ## i Specify the column types or set `show_col_types = FALSE` to quiet this message.
 
 ``` r
-litters_df
+litters_df 
 ```
 
     ## # A tibble: 34 x 8
